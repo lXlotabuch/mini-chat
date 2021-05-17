@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #0000dce6;
+  padding: 10px;
+}

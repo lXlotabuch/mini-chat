@@ -1,0 +1,15 @@
+.form-message {
+  width: 60%;
+  margin: 15px auto 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #7d7dff;
+  @media (max-width: 480px) {
+    width: 95%;
+  }
+}
+
+.ant-form-item:last-child {
+  margin-bottom: 10px;
+}
