@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const Post = require('./schema/Post/Post.js');
 const { validation } = require('./utils/validation.js');
