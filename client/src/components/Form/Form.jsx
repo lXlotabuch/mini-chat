@@ -19,7 +19,7 @@ export const FormMessage = connect(null, { sendMessage })(({ sendMessage }) => {
     const data = await sendMessage(values);
     if (data.error) {
       message.error(data.message);
-    } else form.setFieldsValue({ text: null });
+    } else form.setFieldsValue({ message: null });
   };
 
   return (
